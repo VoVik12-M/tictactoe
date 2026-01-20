@@ -41,7 +41,6 @@ function App() {
     const[check, setCheck] = useState(2);
 
     return (
-        <HashRouter>
             <Routes>
                 <Route
                     path="/"
@@ -67,7 +66,6 @@ function App() {
                     }
                 />
             </Routes>
-        </HashRouter>
     );
 }
 
