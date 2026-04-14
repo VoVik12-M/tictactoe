@@ -53,7 +53,6 @@ function GamePole ({player1, check, player2}) {
                     setKilk(prev => [...prev, event.detail])
                     if(kilk.length === 1) {
                         window.location.href = "/"
-                        navigate("/")
                     }
                 }
                 document.addEventListener("click", Natusk);
@@ -67,7 +66,6 @@ function GamePole ({player1, check, player2}) {
                     setKilk(prev => [...prev, event.detail])
                     if(kilk.length === 1) {
                         window.location.href = "/"
-                        navigate("/")
                     }
                 }
                 document.addEventListener("click", Natusk);
